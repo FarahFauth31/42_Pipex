@@ -21,7 +21,6 @@ int	main(int argc, char **argv, char **envp)
 	if (argc == 5)
 	{
 		argv++;
-		(void) envp;
 		commands = ft_fill_commands(argv, envp);
 		if (commands == NULL)
 			return (1);
